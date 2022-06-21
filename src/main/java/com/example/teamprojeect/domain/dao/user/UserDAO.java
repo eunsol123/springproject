@@ -50,4 +50,5 @@ public class UserDAO {
     public boolean remove(Long userNumber) {
         return userMapper.delete(userNumber) == 1;
     }
+
 }
